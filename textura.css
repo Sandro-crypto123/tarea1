@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    color: #ffbd39;
+    font-size: 2rem;
+}
+
+.img-hero {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.boton-registro {
+    display: inline-block;
+    background-color: #ff005c;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.foto-seccion {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffbd39;
+    margin-top: 20px;
+}
+
+.seccion-actividades {
+    background-color: #5c33f6;
+    color: white;
+}
+
+.contenedor-actividades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloque {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bloque img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.titulo-celeste {
+    color: #00d2ff;
+}
+
+table {
+    margin: auto;
+    width: 85%;
+    border-collapse: collapse;
+    background: white;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #ff005c;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.fila-verde {
+    background-color: #e8f9e9;
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+.fila-amarilla {
+    background-color: #fffde7;
+    font-weight: bold;
+    color: #f57f17;
+}
+
+.seccion-ubicacion {
+    background-color: #3b185f;
+    color: white;
+}
+
+.seccion-registro {
+    background-color: #ff005c;
+    color: white;
+}
+
+.boton-blanco {
+    display: inline-block;
+    background: white;
+    color: #ff005c;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 30px;
+    border-top: 3px solid #ff005c;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .contenedor-actividades {
+        grid-template-columns: 1fr;
+    }
+}   
